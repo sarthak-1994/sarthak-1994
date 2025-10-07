@@ -10,7 +10,7 @@ pipeline {
     }
 
     tools {
-        maven 'Maven 3.8.6'  // Ensure this matches your Jenkins Maven installation name
+        maven 'Maven  3.9.11'  // Ensure this matches your Jenkins Maven installation name
         jdk 'jdk-17'         // Ensure this matches your Jenkins JDK installation name
     }
 
