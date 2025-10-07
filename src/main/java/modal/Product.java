@@ -5,7 +5,6 @@ import lombok.Getter;
 
 import java.util.List;
 
-@Data
 public class Product {
 	private List<String> images;
 	private int price;

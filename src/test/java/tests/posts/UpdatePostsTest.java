@@ -1,4 +1,4 @@
-package test.posts;
+package tests.posts;
 
 import io.restassured.response.Response;
 import org.testng.annotations.Test;

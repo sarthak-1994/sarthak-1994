@@ -1,4 +1,4 @@
-package test.auth;
+package tests.auth;
 
 import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;
@@ -34,7 +34,6 @@ public class BaseTest {
         return new RequestSpecBuilder()
                                         .setBaseUri("https://dummyjson.com")
                                          .addHeader("Authorization","Bearer"+" "+token)
-                                          .addFilter(new AuthFilter())
                                           .build();
     }
 

@@ -1,4 +1,4 @@
-package test.auth;
+package tests.auth;
 
 import io.restassured.response.Response;
 import org.testng.annotations.Test;

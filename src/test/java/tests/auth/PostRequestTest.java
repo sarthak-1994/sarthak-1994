@@ -1,4 +1,4 @@
-package test.auth;
+package tests.auth;
 
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.specification.RequestSpecification;
